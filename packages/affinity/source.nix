@@ -5,7 +5,7 @@ in
 {
   photo = requireFile {
     name = "affinity-photo-msi-${version}.exe";
-    sha256 = "0wf8ywgvssh9r1b9qcaam5b0ma91722z33a2mj94869p0hrs1m3g";
+    sha256 = "p9rwbcylq2z5f43j7w82rb3bdr0wycvs";
     url = "https://store.serif.com/en-gb/update/windows/photo/2/";
   };
   designer = requireFile {
