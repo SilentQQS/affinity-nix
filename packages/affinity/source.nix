@@ -4,9 +4,8 @@ let
 in
 {
   photo = requireFile {
-    name = "affinity-photo-msi-${version}.exe";
-    sha256 = "p9rwbcylq2z5f43j7w82rb3bdr0wycvs";
-    url = "https://store.serif.com/en-gb/update/windows/photo/2/";
+    path = /nix/store/p9rwbcylq2z5f43j7w82rb3bdr0wycvs-affinity-photo-msi-2.6.4.exe;
+    sha256 = null;
   };
   designer = requireFile {
     name = "affinity-designer-msi-${version}.exe";
